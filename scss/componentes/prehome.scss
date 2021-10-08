@@ -1,0 +1,42 @@
+/* start prehome*/
+.container-prehome {
+    background: url(https://i.ibb.co/9vwnVrQ/Whats-App-Image-2021-10-08-at-19-06-32.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.container-prehome .container-textoprehome {
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.texto-prehome {
+    font-size: 70px;
+    color: #000000;
+}
+
+@media screen and (max-width: 990px) {
+
+    .texto-prehome {
+        font-size: 40px;
+        color: #000000;
+    }
+}
+
+.texto-subprehome {
+    font-size: 18px;
+    color: #f1faee;
+}
+
+/* finish prehome*/
