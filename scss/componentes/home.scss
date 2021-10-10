@@ -1,0 +1,42 @@
+.container-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 0;
+}
+
+.container-texto {
+    padding: 40px;
+}
+
+.primer-texto {
+    padding: 20px;
+    font-size: 50px;
+    color: #b5179e;
+}
+
+.imagen {
+    width: 100%;
+    padding: 30px;
+}
+
+
+@media screen and (max-width: 990px) {
+
+    .container-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5px;
+    }
+    .primer-texto {
+        text-align: center;
+    }
+    .segundo-texto {
+        text-align: center;
+    }
+    .imagen {
+        width: 100%;
+        padding: 5px
+    }
+
+
+}

@@ -1,8 +1,8 @@
 /* start prehome*/
 .container-prehome {
-    background: url(https://i.ibb.co/9vwnVrQ/Whats-App-Image-2021-10-08-at-19-06-32.jpg);
+    background-color: black;
     background-size: cover;
-    height: 100vh;
+    height: 40vh;
     width: 100%;
     text-align: center;
     display: -webkit-flex;
@@ -23,14 +23,14 @@
 
 .texto-prehome {
     font-size: 70px;
-    color: #000000;
+    color: #fff;
 }
 
 @media screen and (max-width: 990px) {
 
     .texto-prehome {
         font-size: 40px;
-        color: #000000;
+        color: #fff;
     }
 }
 
