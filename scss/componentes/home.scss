@@ -1,3 +1,5 @@
+
+/* start home */
 .container-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -40,3 +42,39 @@
 
 
 }
+
+
+.titulo-home {
+    font-size: 40px;
+    color: #560bad;
+    padding: 20px;
+}
+
+.texto-home {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+}
+
+.background-home {
+    background-color: #023e8a;
+    width: 100%;
+    padding: 30px;
+}
+
+.titulo-servicio {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+/* finish home */

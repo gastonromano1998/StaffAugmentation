@@ -1,4 +1,4 @@
-/* comienzo navbar */
+/* start navbar */
 * {
   margin: 0px;
   padding: 0px;
@@ -6,12 +6,10 @@
   font-family: "Noto Serif", serif;
 }
 
-/* color de las letras del navbar */
 .color-nav {
   color: #ede0d4;
 }
 
-/* nav */
 .titulo-nav {
   text-decoration: none;
   padding: 25px;
@@ -20,6 +18,7 @@
   font-size: 20px;
 }
 
+/* finish navbar */
 /* start prehome*/
 .container-prehome {
   background-size: cover;
@@ -59,6 +58,7 @@
 }
 
 /* finish prehome*/
+/* start home */
 .container-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -100,5 +100,31 @@
     padding: 5px;
   }
 }
+.titulo-home {
+  font-size: 40px;
+  color: #560bad;
+  padding: 20px;
+}
+
+.texto-home {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+}
+
+.background-home {
+  background-color: #023e8a;
+  width: 100%;
+  padding: 30px;
+}
+
+.titulo-servicio {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  padding: 40px;
+}
+
+/* finish home */
 
 /*# sourceMappingURL=style.css.map */
