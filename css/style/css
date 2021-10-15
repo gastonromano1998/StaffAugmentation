@@ -175,21 +175,16 @@
   text-align: center;
 }
 
-.container-staffaugmentation {
-  align-items: center;
+.container-iconos {
+  padding: 60px;
 }
 
-.titulo-staffaugmentation {
-  text-align: center;
-  font-size: 50px;
-  color: #892b64;
+.foto-iconos {
+  width: 70px;
 }
 
-.texto-staffaugmentation {
-  text-align: center;
+.texto-crmneed {
   font-size: 20px;
-  color: #000;
-  margin: 20px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=css.map */
