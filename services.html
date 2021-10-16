@@ -24,28 +24,40 @@
 </head>
 
 <body>
-    <!-- ********** navbar start ********** -->
     <header>
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-                <div class="container-fluid">
-                    <!-- logo del proyecto -->
-                    <a class="navbar-brand" href="#"><img src="imagenes/LogoMakr-6GGTW7.png" class="img-fluid"
-                            width="110px" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav mx-auto">
-                            <a class="titulo-nav" href="index.html">Home</a>
-                            <a class="titulo-nav" href="services.html">Services</a>
-                            <a class="titulo-nav" href="#">Solution</a>
-                            <a class="titulo-nav" href="#">Company</a>
-                            <a class="titulo-nav" href="#">Contact</a>
-                        </div>
-                    </div>
+        <div class="wrapper">
+            <nav>
+                <input type="checkbox" id="show-search">
+                <input type="checkbox" id="show-menu">
+                <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+                <div class="content">
+                    <img class="logo" src="imagenes/LogoMakr-6GGTW7.png" alt="">
+                    <ul class="links">
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="services.html" class="desktop-link">Services</a>
+                            <input type="checkbox" id="show-features">
+                            <label for="show-features">Services</label>
+                            <ul>
+                                <li><a href="#">Drop Menu 1</a></li>
+                                <li><a href="#">Drop Menu 2</a></li>
+                                <li><a href="#">Drop Menu 3</a></li>
+                                <li><a href="#">Drop Menu 4</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="solution.html" class="desktop-link">Solutions</a>
+                            <input type="checkbox" id="show-services">
+                            <label for="show-services">Solutions</label>
+                            <ul>
+                                <li><a href="#">Drop Menu 1</a></li>
+                                <li><a href="#">Drop Menu 2</a></li>
+                                <li><a href="#">Drop Menu 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
                 </div>
             </nav>
         </div>
