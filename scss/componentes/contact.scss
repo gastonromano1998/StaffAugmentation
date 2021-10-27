@@ -1,20 +1,21 @@
 
+/*contact*/
 .background-contact {
-    background-color: #000;
+    background-color: #03071e;
 }
-
+/*contact*/
 .container {
     margin-top: 100px;
 }
-
+/*contact*/
 .contact-form {
     list-style-type: none;
 }
-
+/*contact*/
 .contact-form li div {
     margin-bottom: 2.5em;
 }
-
+/*contact*/
 .contact-form input,
 .contact-form textarea,
 .contact-form select {
@@ -35,7 +36,7 @@
     font-size: 18px;
     transition: ease-in-out 0.25s;
 }
-
+/*contact*/
 .contact-form textarea {
     min-height: 50px;
     max-height: 500px;
@@ -44,21 +45,21 @@
     resize: vertical;
     overflow: hidden;
 }
-
+/*contact*/
 .contact-form ::-webkit-input-placeholder {
     font-size: 12px;
     color: slategrey;
     text-transform: uppercase;
     font-weight: 400;
 }
-
+/*contact*/
 .contact-form label {
     font-size: 12px;
     color: slategrey;
     text-transform: uppercase;
     font-weight: 400;
 }
-
+/*contact*/
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus,
@@ -67,7 +68,7 @@
     resize: none;
     border-bottom: 3px solid #db4d57;
 }
-
+/*contact*/
 .contact-form button {
     color: lightgrey;
     background: rgba(34, 34, 34, 0.0);
@@ -81,16 +82,16 @@
     letter-spacing: 1px;
     transition: ease-in-out 0.25s;
 }
-
+/*contact*/
 .contact-form button span {
     transition: ease-in-out 0.25s;
 }
-
+/*contact*/
 .contact-form button:hover {
     background: #db4d57;
     color: lightgrey;
 }
-
+/*contact*/
 .contact-form button:hover span {
     padding-left: 10px;
     color: white;

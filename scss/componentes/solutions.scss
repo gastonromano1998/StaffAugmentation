@@ -1,16 +1,16 @@
+
+/*solutions*/
 .container-dinamics {
     text-align: center;
     margin: 20px 20px;
 }
-
+/*solutions*/
 .titulo-dinamics {
     font-size: 35px;
     color: #0077b6;
 }
 
-
-
-
+/*solutions*/
 .marketing-site-content-section {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -19,13 +19,13 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-
+/*solutions*/
 .marketing-site-content-section .button.round {
     border-radius: 5000px;
     text-transform: uppercase;
     margin-bottom: 0;
 }
-
+/*solutions*/
 .marketing-site-content-section .marketing-site-content-section-img {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -35,11 +35,11 @@
     -ms-flex: 1 0 100%;
     flex: 1 0 100%;
 }
-
+/*solutions*/
 .marketing-site-content-section .marketing-site-content-section-img img {
     width: 100%;
 }
-
+/*solutions*/
 @media screen and (min-width: 40em) {
     .marketing-site-content-section .marketing-site-content-section-img {
         -webkit-flex: 1 0 50%;
@@ -47,7 +47,7 @@
         flex: 1 0 50%;
     }
 }
-
+/*solutions*/
 .marketing-site-content-section .marketing-site-content-section-block {
     padding: 1rem;
     -webkit-flex: 1 0 100%;
@@ -70,7 +70,7 @@
     -ms-flex-align: start;
     align-items: flex-start;
 }
-
+/*solutions*/
 @media screen and (min-width: 40em) {
     .marketing-site-content-section .marketing-site-content-section-block {
         -webkit-flex: 1 0 50%;
@@ -79,11 +79,11 @@
         padding: 2rem;
     }
 }
-
+/*solutions*/
 .marketing-site-content-section-block-header {
     font-size: 24px;
 }
-
+/*solutions*/
 .marketing-site-content-section-block-subheader {
     font-size: 13px;
 }

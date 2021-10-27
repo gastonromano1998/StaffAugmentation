@@ -25,17 +25,57 @@
 </head>
 
 <body class="background-contact">
+    <!-- start navbar -->
+    <header>
+        <div class="wrapper">
+            <nav>
+                <input type="checkbox" id="show-search">
+                <input type="checkbox" id="show-menu">
+                <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+                <div class="content">
+                    <img class="logo" src="imagenes/LogoMakr-6GGTW7.png" alt="">
+                    <ul class="links">
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="#" class="desktop-link">Services</a>
+                            <input type="checkbox" id="show-features">
+                            <label for="show-features">Services</label>
+                            <ul>
+                                <li><a href="staffaugmentation.html">Staff Augmentation</a></li>
+                                <li><a href="crm.html">Agile ERP & CRM Implementation</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="desktop-link">Solutions</a>
+                            <input type="checkbox" id="show-services">
+                            <label for="show-services">Solutions</label>
+                            <ul>
+                                <li><a href="dynamic.html">Dynamic 365</a></li>
+                                <li><a href="powerplat.html">PowerPlatform</a></li>
+                                <li><a href="salesforce.html">Salesforce</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- finish navbar -->
 
     <!-- contact start -->
     <div class="container">
-        <h1 class="text-left" style="color: #f3f3f3">Contactanos</h1>
+        <!-- ID Particles.js -->
+        <div id="particles-js"></div>
+        <h1 class="text-left" style="color: #f3f3f3">Contact us</h1>
         <div class="row">
             <div class="col-md-12">
                 <form method="post" action="enviarcorreo.php">
                     <ul class="contact-form">
                         <li>
                             <div class="col-md-6">
-                                <input name="nombre" placeholder="Escribe tu nombre" required="required" size="8"
+                                <input name="Name" placeholder="Enter your name" required="required" size="8"
                                     type="text" />
                             </div>
 
@@ -46,23 +86,23 @@
 
                         <li>
                             <div class="col-md-6">
-                                <input name="telefono" placeholder="Escribe tu numero" required="required" size="8"
+                                <input name="Phone" placeholder="Enter your number" required="required" size="8"
                                     type="text" />
                             </div>
 
                             <div class="col-md-6">
-                                <input name="compañia" placeholder="Companía/Agencia" required="required" size="8"
+                                <input name="Company" placeholder="Company/Agency" required="required" size="8"
                                     type="text" />
                             </div>
                         </li>
                         <li>
                             <div class="col-md-12">
-                                <input name="asunto" placeholder="Asunto" required="required" size="8" type="text" />
+                                <input name="affair" placeholder="Affair" required="required" size="8" type="text" />
                             </div>
                         </li>
                         <li>
                             <div class="col-md-12">
-                                <textarea class="span12" name="mensaje" placeholder="Escribe tu proyecto o mensaje"
+                                <textarea class="span12" name="mensaje" placeholder="Write your project or message"
                                     required="required"></textarea>
                             </div>
                         </li>
@@ -70,7 +110,7 @@
                         <li>
                             <div class="col-md-12">
                                 <button type="submit">
-                                    Enviar mensaje
+                                    Send message
                                     <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
                                 </button>
                             </div>
@@ -81,11 +121,77 @@
         </div>
     </div>
     <!-- contact start -->
+    <!-- start footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <a class="navbar-brand" href="#"><img src="imagenes/LogoMakr-6GGTW7.png" class="img-fluid"
+                            width="110px" alt=""></a>
+                    <p>We specialize in implementing, integrating, and optimizing top CRM platforms for customer-centric
+                        business processes.
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning"><span
+                            style="color: #b5179e;">Services</span></h5>
+                    <p><a href="" class="text-white" style="text-decoration: none;">Staff Augmentation</a></p>
+                    <p><a href="" class="text-white" style="text-decoration: none;">Agile ERP & CRM implementation</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning"><span
+                            style="color: #b5179e;">Solutions</span></h5>
+                    <p><i class="icon-home3 p-2"></i>Dynamic 365</p>
+                    <p><i class="icon-mail p-2"></i>PowerPlatform</p>
+                    <p><i class="icon-phone p-2"></i>Salesforce</p>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p>All rights reserved by:
+                        <a href="" style="text-decoration: none;">
+                            <strong class="text-warning"><span style="color: #f72585;">Dynamicsteams</span></strong>
+                        </a></p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline"></ul>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/?hl=es" class="btn-floating btn-sm text-white"
+                                style="font-size: 23px; text-decoration: none;"><i class="icon-instagram"></i> </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/feed/" class="btn-floating btn-sm text-white"
+                                style="font-size: 23px; text-decoration: none;"><i class="icon-linkedin"></i> </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://ar.pinterest.com/" class="btn-floating btn-sm text-white"
+                                style="font-size: 23px; text-decoration: none;"><i class="icon-pinterest"></i> </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/" class="btn-floating btn-sm text-white"
+                                style="font-size: 23px; text-decoration: none;"><i class="icon-facebook2"></i> </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://api.whatsapp.com/send?phone=+5491159776842"
+                                class="btn-floating btn-sm text-white"
+                                style="font-size: 23px; text-decoration: none;"><i class="icon-whatsapp"></i> </a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- finish footer del proyecto -->
 
 
 
 
-
+    <!-- particulas js -->
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/script.js"></script>
     <!-- javascript -->

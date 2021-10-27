@@ -691,16 +691,19 @@ nav .content .links {
     text-align: center;
   }
 }
+/*solutions*/
 .container-dinamics {
   text-align: center;
   margin: 20px 20px;
 }
 
+/*solutions*/
 .titulo-dinamics {
   font-size: 35px;
   color: #0077b6;
 }
 
+/*solutions*/
 .marketing-site-content-section {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -710,12 +713,14 @@ nav .content .links {
   flex-wrap: wrap;
 }
 
+/*solutions*/
 .marketing-site-content-section .button.round {
   border-radius: 5000px;
   text-transform: uppercase;
   margin-bottom: 0;
 }
 
+/*solutions*/
 .marketing-site-content-section .marketing-site-content-section-img {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -726,10 +731,12 @@ nav .content .links {
   flex: 1 0 100%;
 }
 
+/*solutions*/
 .marketing-site-content-section .marketing-site-content-section-img img {
   width: 100%;
 }
 
+/*solutions*/
 @media screen and (min-width: 40em) {
   .marketing-site-content-section .marketing-site-content-section-img {
     -webkit-flex: 1 0 50%;
@@ -737,6 +744,7 @@ nav .content .links {
     flex: 1 0 50%;
   }
 }
+/*solutions*/
 .marketing-site-content-section .marketing-site-content-section-block {
   padding: 1rem;
   -webkit-flex: 1 0 100%;
@@ -760,6 +768,7 @@ nav .content .links {
   align-items: flex-start;
 }
 
+/*solutions*/
 @media screen and (min-width: 40em) {
   .marketing-site-content-section .marketing-site-content-section-block {
     -webkit-flex: 1 0 50%;
@@ -768,14 +777,17 @@ nav .content .links {
     padding: 2rem;
   }
 }
+/*solutions*/
 .marketing-site-content-section-block-header {
   font-size: 24px;
 }
 
+/*solutions*/
 .marketing-site-content-section-block-subheader {
   font-size: 13px;
 }
 
+/*company*/
 #particles-js {
   height: 100vh;
   width: 100%;
@@ -783,6 +795,7 @@ nav .content .links {
   z-index: -1;
 }
 
+/*company*/
 .contenedor {
   width: 90%;
   max-width: 1200px;
@@ -797,6 +810,7 @@ nav .content .links {
   opacity: 0.85;
 }
 
+/*company*/
 .contenido-descripcion {
   width: 60%;
   display: flex;
@@ -804,27 +818,32 @@ nav .content .links {
   align-items: center;
 }
 
+/*company*/
 .contenido-descripcion .titulo {
   text-transform: uppercase;
   letter-spacing: 5px;
   color: #fff;
 }
 
+/*company*/
 .titulo1 {
   font-size: 50px;
   color: #b5179e;
 }
 
+/*company*/
 .descripcion {
   color: #fff;
   font-size: 20px;
 }
 
+/*company*/
 .contenido-descripcion .titulo span:last-child {
   font-weight: 900;
   font-size: 100px;
 }
 
+/*company*/
 .contenido-descripcion .btn-link {
   display: inline-block;
   padding: 10px 20px;
@@ -837,11 +856,13 @@ nav .content .links {
   transition: 0.7s ease;
 }
 
+/*company*/
 .contenido-descripcion .btn-link:hover {
   border: 1px solid #f72585;
   animation: none;
 }
 
+/*company*/
 @keyframes parpadeo {
   0%, 41%, 45%, 47%, 49.5%, 100% {
     opacity: 1;
@@ -850,28 +871,34 @@ nav .content .links {
     opacity: 0;
   }
 }
+/*company*/
 @media screen and (max-width: 560px) {
   .titulo {
     text-align: center;
     font-size: 25px;
   }
 }
+/*contact*/
 .background-contact {
-  background-color: #000;
+  background-color: #03071e;
 }
 
+/*contact*/
 .container {
   margin-top: 100px;
 }
 
+/*contact*/
 .contact-form {
   list-style-type: none;
 }
 
+/*contact*/
 .contact-form li div {
   margin-bottom: 2.5em;
 }
 
+/*contact*/
 .contact-form input,
 .contact-form textarea,
 .contact-form select {
@@ -893,6 +920,7 @@ nav .content .links {
   transition: ease-in-out 0.25s;
 }
 
+/*contact*/
 .contact-form textarea {
   min-height: 50px;
   max-height: 500px;
@@ -902,6 +930,7 @@ nav .content .links {
   overflow: hidden;
 }
 
+/*contact*/
 .contact-form ::-webkit-input-placeholder {
   font-size: 12px;
   color: slategrey;
@@ -909,6 +938,7 @@ nav .content .links {
   font-weight: 400;
 }
 
+/*contact*/
 .contact-form label {
   font-size: 12px;
   color: slategrey;
@@ -916,6 +946,7 @@ nav .content .links {
   font-weight: 400;
 }
 
+/*contact*/
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus,
@@ -925,6 +956,7 @@ nav .content .links {
   border-bottom: 3px solid #db4d57;
 }
 
+/*contact*/
 .contact-form button {
   color: lightgrey;
   background: rgba(34, 34, 34, 0);
@@ -939,15 +971,18 @@ nav .content .links {
   transition: ease-in-out 0.25s;
 }
 
+/*contact*/
 .contact-form button span {
   transition: ease-in-out 0.25s;
 }
 
+/*contact*/
 .contact-form button:hover {
   background: #db4d57;
   color: lightgrey;
 }
 
+/*contact*/
 .contact-form button:hover span {
   padding-left: 10px;
   color: white;
