@@ -63,62 +63,35 @@
         </div>
     </header>
     <!-- finish navbar -->
-
-    <!-- contact start -->
-    <div class="container">
-        <!-- ID Particles.js -->
-        <div id="particles-js"></div>
-        <h1 class="text-left" style="color: #f3f3f3">Contact us</h1>
-        <div class="row">
-            <div class="col-md-12">
-                <form method="post" action="enviarcorreo.php">
-                    <ul class="contact-form">
-                        <li>
-                            <div class="col-md-6">
-                                <input name="Name" placeholder="Enter your name" required="required" size="8"
-                                    type="text" />
-                            </div>
-
-                            <div class="col-md-6">
-                                <input name="email" placeholder="Email" required="required" size="8" type="email" />
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="col-md-6">
-                                <input name="Phone" placeholder="Enter your number" required="required" size="8"
-                                    type="text" />
-                            </div>
-
-                            <div class="col-md-6">
-                                <input name="Company" placeholder="Company/Agency" required="required" size="8"
-                                    type="text" />
-                            </div>
-                        </li>
-                        <li>
-                            <div class="col-md-12">
-                                <input name="affair" placeholder="Affair" required="required" size="8" type="text" />
-                            </div>
-                        </li>
-                        <li>
-                            <div class="col-md-12">
-                                <textarea class="span12" name="mensaje" placeholder="Write your project or message"
-                                    required="required"></textarea>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="col-md-12">
-                                <button type="submit">
-                                    Send message
-                                    <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
-                                </button>
-                            </div>
-                        </li>
-                    </ul>
-                </form>
+<!-- contact start -->
+<!-- ID Particles.js -->
+<div id="particles-js"></div>
+    <div class="mb-5">
+        <h1 class="text-center text-capitalize"><span style="color: #fff;">Contact Us</span></h1>
+    </div>
+    <div class="d-flex justify-content-center">
+        <form id="formulario">
+            <div class="mb-4 col-12">
+                <label for="nombre" class="form-label text-capitalize"><span style="color: #fff;">Name</span></label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre" class="form-control">
             </div>
-        </div>
+            <div class="mb-4 col-12">
+                <label for="telefono" class="form-label text-capitalize"><span style="color: #fff;">Phone</span></label>
+                <input type="number" id="telefono" placeholder="Ingrese su telefono" class="form-control">
+            </div>
+            <div class="mb-4 col-12">
+                <label for="email" class="form-label text-capitalize"><span style="color: #fff;">Email</span></label>
+                <input type="email" id="email" placeholder="Ingrese su Email" class="form-control">
+            </div>
+            <div class="mb-4 col-12">
+                <label for="mensaje" class="form-label text-capitalize"><span style="color: #fff;">Message</span></label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Deje aqui su mensaje"
+                    class="form-control"></textarea>
+            </div>
+            <div class="text-center">
+                <input type="submit" value="Enviar" class="btn btn-primary">
+            </div>
+        </form>
     </div>
     <!-- contact start -->
     <!-- start footer -->
@@ -187,8 +160,9 @@
     <!-- finish footer del proyecto -->
 
 
-
-
+    <script src="smpt.js"></script>
+    <script src="sender.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- particulas js -->
     <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>
