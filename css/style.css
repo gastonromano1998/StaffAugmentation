@@ -1141,6 +1141,10 @@ nav .content .links {
     font-size: 25px;
   }
 }
+.txt-descripcion {
+  font-size: 25px;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }

@@ -5,6 +5,7 @@
     position: fixed;
     z-index: -1;
 }
+
 /*company*/
 .contenedor {
     width: 90%;
@@ -27,27 +28,32 @@
     height: 100%;
     align-items: center;
 }
+
 /*company*/
 .contenido-descripcion .titulo {
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #fff;
 }
+
 /*company*/
 .titulo1 {
     font-size: 50px;
     color: #b5179e;
 }
+
 /*company*/
 .descripcion {
     color: #fff;
     font-size: 20px;
 }
+
 /*company*/
 .contenido-descripcion .titulo span:last-child {
     font-weight: 900;
     font-size: 100px;
 }
+
 /*company*/
 .contenido-descripcion .btn-link {
     display: inline-block;
@@ -60,6 +66,7 @@
     animation: parpadeo 2s linear infinite;
     transition: .7s ease;
 }
+
 /*company*/
 .contenido-descripcion .btn-link:hover {
     border: 1px solid #f72585;
@@ -90,9 +97,13 @@
 /*company*/
 @media screen and (max-width: 560px) {
 
-.titulo {
-    text-align: center;
-    font-size: 25px;
-}
+    .titulo {
+        text-align: center;
+        font-size: 25px;
+    }
 
-}
+    
+    }
+    .txt-descripcion {
+        font-size: 25px;
+    }
