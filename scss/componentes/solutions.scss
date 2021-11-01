@@ -96,7 +96,7 @@
     font-size: 13px;
 }
 
-
+/*solutions*/
 .c-img {
     width: 100%;
     max-width: 100%;
@@ -115,7 +115,8 @@
         align-items: center;
         position: absolute;
 
-        h2, p{
+        h2,
+        p {
             color: #fff;
             padding: 10px 20px;
         }
@@ -125,21 +126,22 @@
 .txt10 {
     font-size: 30px;
 }
+
 .txt20 {
     font-size: 15px;
 }
 
-
-
-
+/*solutions*/
 .title-timeline {
     text-align: center;
+
     h2 {
         font-size: 40px;
         color: #b5179e;
     }
 }
 
+/*solutions*/
 .timeline {
     max-width: 1300px;
     margin: 50px auto;
@@ -149,6 +151,7 @@
 
 }
 
+/*solutions*/
 .timeline .center-line {
     position: absolute;
     height: 100%;
@@ -159,18 +162,22 @@
     transform: translateX(-50%);
 }
 
+/*solutions*/
 .timeline .row {
     display: flex;
 }
 
+/*solutions*/
 .timeline .row-1 {
     justify-content: flex-start;
 }
 
+/*solutions*/
 .timeline .row-2 {
     justify-content: flex-end;
 }
 
+/*solutions*/
 .timeline .row section {
     background: #fff;
     border-radius: 5px;
@@ -179,6 +186,7 @@
     position: relative;
 }
 
+/*solutions*/
 .timeline .row section::before {
     position: absolute;
     content: "";
@@ -190,6 +198,7 @@
     transform: rotate(45deg);
 }
 
+/*solutions*/
 .row-1 section::before {
     right: -7px;
 }
@@ -198,6 +207,7 @@
     left: -7px;
 }
 
+/*solutions*/
 .row section .icon,
 .center-line .scroll-icon {
     position: absolute;
@@ -212,6 +222,7 @@
     box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
+/*solutions*/
 .center-line .scroll-icon {
     bottom: 0px;
     left: 50%;
@@ -219,16 +230,19 @@
     transform: translateX(-50%);
 }
 
+/*solutions*/
 .row-1 section .icon {
     top: 15px;
     right: -60px;
 }
 
+/*solutions*/
 .row-2 section .icon {
     top: 15px;
     left: -60px;
 }
 
+/*solutions*/
 .row section .details,
 .row section .bottom {
     display: flex;
@@ -236,15 +250,18 @@
     justify-content: space-between;
 }
 
+/*solutions*/
 .row section .details .title {
     font-size: 22px;
     font-weight: 600;
 }
 
+/*solutions*/
 .row section p {
     margin: 10px 0 17px 0;
 }
 
+/*solutions*/
 .row section .bottom a {
     text-decoration: none;
     background: #ff7979;
@@ -256,6 +273,7 @@
     transition: all 0.3s ease;
 }
 
+/*solutions*/
 .row section .bottom a:hover {
     transform: scale(0.97);
 }
@@ -282,6 +300,7 @@
     }
 }
 
+/*solutions*/
 @media(max-width: 440px) {
 
     .timeline .center-line,
@@ -292,5 +311,107 @@
 
     .timeline .row {
         margin: 10px 0;
+    }
+}
+
+
+
+
+
+.container-sale {
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-sale {
+    height: 280px;
+    max-width: 350px;
+    margin: 0 20px;
+    background: white;
+    transition: 0.4s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-sale:hover {
+    height: 470px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-sale .img-sale {
+    height: 200px;
+    width: 100%;
+}
+
+.card-sale .img-sale img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-sale .top-text {
+    padding: 5px;
+}
+
+.card-sale .top-text .name {
+    font-size: 25px;
+    font-weight: 600;
+    color: #202020;
+}
+
+.card-sale .top-text p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #e74c3c;
+    line-height: 20px;
+}
+
+.card-sale .bottom-text {
+    padding: 0 20px 10px 20px;
+    margin-top: 5px;
+    background: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.1s;
+}
+
+.card-sale:hover .bottom-text {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-sale .bottom-text .text {
+    text-align: justify;
+}
+
+.card-sale .bottom-text .btn {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.card-sale .bottom-text .btn a {
+    text-decoration: none;
+    background: #e74c3c;
+    color: #f2f2f2;
+    padding: 5px 8px;
+    border-radius: 3px;
+    display: inline-flex;
+    transition: 0.2s;
+}
+
+.card-sale .bottom-text .btn a:hover {
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 978px) {
+    .container-sale {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .card-sale {
+        max-width: 700px;
+        margin: 20px 0;
     }
 }
