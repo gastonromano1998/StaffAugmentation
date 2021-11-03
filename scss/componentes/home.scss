@@ -84,9 +84,9 @@
 }
 
 /* home */
-.container {
-    width: 90%;
-    margin: 100px auto;
+.container-question {
+    width: 100%;
+    overflow-x: hidden;
 }
 /* home */
 .container-faq {
@@ -98,6 +98,7 @@
     text-align: center;
     font-size: 2rem;
     margin-bottom: 30px;
+    color: #b5179e;
 }
 /* home */
 .container-faq .item-faq {
@@ -160,4 +161,7 @@
     opacity: .2;
 }
 
+.container-margin {
+    margin-top: -160px;
+}
 /* finish home */
