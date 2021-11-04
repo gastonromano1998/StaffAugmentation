@@ -79,7 +79,7 @@
 .titulo-servicio {
     text-align: center;
     font-size: 50px;
-    color: #fff;
+    color: #b5179e;
     padding: 40px;
 }
 
@@ -88,11 +88,13 @@
     width: 100%;
     overflow-x: hidden;
 }
+
 /* home */
 .container-faq {
     box-shadow: 0 0 15px -1px rgba(0, 0, 0, .1);
     padding: 30px;
 }
+
 /* home */
 .container-faq .title-faq {
     text-align: center;
@@ -100,12 +102,14 @@
     margin-bottom: 30px;
     color: #b5179e;
 }
+
 /* home */
 .container-faq .item-faq {
     box-shadow: 0 0 15px -1px rgba(0, 0, 0, .2);
     margin-bottom: 20px;
     border-radius: 10px;
 }
+
 /* home */
 .container-faq .item-faq .question {
     position: relative;
@@ -116,6 +120,7 @@
     padding: 20px 20px 20px 80px;
     transition: .4s;
 }
+
 /* home */
 .container-faq .item-faq .question .more {
     display: flex;
@@ -128,10 +133,12 @@
     cursor: pointer;
     transition: .4s;
 }
+
 /* home */
 .container-faq .item-faq .question .more:hover {
     box-shadow: 0 0 15px -1px rgba(0, 0, 0, .4);
 }
+
 /* home */
 .container-faq .item-faq .question span {
     position: absolute;
@@ -140,6 +147,7 @@
     top: 10px;
     opacity: .1;
 }
+
 /* home */
 .container-faq .item-faq .answer {
     position: relative;
@@ -148,10 +156,12 @@
     height: 0;
     transition: .4s;
 }
+
 /* home */
 .container-faq .item-faq .answer p {
     font-size: 1.3rem;
 }
+
 /* home */
 .container-faq .item-faq .answer span {
     position: absolute;
@@ -164,4 +174,7 @@
 .container-margin {
     margin-top: -160px;
 }
+
 /* finish home */
+
+

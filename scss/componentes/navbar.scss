@@ -208,7 +208,7 @@ nav .content .links {
 /* navbar*/
 @media screen and (max-width: 900px) {
     .wrapper .menu-icon {
-        display: block;
+        display:inline;
     }
 
     .wrapper #show-menu:checked~.menu-icon i::before {
