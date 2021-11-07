@@ -24,14 +24,14 @@
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
 </head>
 
-<body>
+<body class="bg-secondary">
     <!-- start navbar -->
     <header>
         <div class="wrapper">
             <nav>
                 <input type="checkbox" id="show-search">
                 <input type="checkbox" id="show-menu">
-                <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+                <label for="show-menu" class="menu-icon"><i class="fas fa-align-left"></i></label>
                 <div class="content">
                     <img class="logo" src="imagenes/LogoMakr-6GGTW7.png" alt="">
                     <ul class="links">
@@ -63,38 +63,26 @@
         </div>
     </header>
     <!-- finish navbar -->
-    <div id="particles-js"></div>
-    <section>
-        <!-- start contact -->
-        <div class="mb-5">
-            <h1 class="text-center text-capitalize">formulario de contacto</h1>
-        </div>
-        <div class="d-flex justify-content-center">
-            <form id="formulario">
-                <div class="mb-4 col-12">
-                    <label for="nombre" class="form-label text-capitalize">nombre </label>
-                    <input type="text" id="nombre" placeholder="Ingrese su nombre" class="form-control">
-                </div>
-                <div class="mb-4 col-12">
-                    <label for="telefono" class="form-label text-capitalize">telefono </label>
-                    <input type="number" id="telefono" placeholder="Ingrese su telefono" class="form-control">
-                </div>
-                <div class="mb-4 col-12">
-                    <label for="email" class="form-label text-capitalize">email </label>
-                    <input type="email" id="email" placeholder="Ingrese su Email" class="form-control">
-                </div>
-                <div class="mb-4 col-12">
-                    <label for="mensaje" class="form-label text-capitalize">mensaje </label>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Deje aqui su mensaje"
-                        class="form-control"></textarea>
-                </div>
-                <div class="text-center">
-                    <input type="submit" value="Enviar" class="btn btn-primary">
-                </div>
-            </form>
+<!-- contact start -->
+    <section class="contact">
+        <div class="u-wrapper">
+            <div class="contact-content">
+
+                <form id="form" action="" class="form">
+                    <h3 class="tag"><span>HABLEMOS</span></h3>
+                    <label for="name">Nombre Completo <span>*</span></label>
+                    <input name="name" required type="text" id="name" placeholder="Juan">
+                    <label for="email">Correo electrónico <span>*</span></label>
+                    <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+                    <button type="submit" class="btn primary full">enviar mensaje</button>
+                </form>
+                <a href="mailto:me@gaastonromano@gmail.com" id="trucazo"></a>
+            </div>
         </div>
     </section>
-    <!-- finish contact -->
+    <!-- contact finish -->
     <!-- start footer -->
     <footer class="footer">
         <div class="l-footer">
@@ -137,8 +125,7 @@
 
 
 
-
-
+    <script src="js/contact.js"></script>
     <script src="js/sender.js"></script>
     <script src="js/smpt.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>

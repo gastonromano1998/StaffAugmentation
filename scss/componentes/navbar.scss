@@ -1,7 +1,7 @@
 /* navbar*/
 .wrapper {
     background: #171c24;
-    position: sticky;
+    position: fixed;
     width: 100%;
 }
 
@@ -208,11 +208,7 @@ nav .content .links {
 /* navbar*/
 @media screen and (max-width: 900px) {
     .wrapper .menu-icon {
-        display:inline;
-    }
-
-    .wrapper #show-menu:checked~.menu-icon i::before {
-        content: "\f00d";
+        display: inline;
     }
 
     nav .content .links {
@@ -277,6 +273,7 @@ nav .content .links {
         border-radius: 5px !important;
     }
 }
+
 /* navbar*/
 @media screen and (max-width: 400px) {
     .wrapper nav {
@@ -300,6 +297,7 @@ nav .content .links {
         padding-right: 30px;
     }
 }
+
 /* navbar*/
 .dummy-text {
     position: absolute;
@@ -311,6 +309,7 @@ nav .content .links {
     text-align: center;
     transform: translate(-50%, -50%);
 }
+
 /* navbar*/
 .dummy-text h2 {
     font-size: 45px;
