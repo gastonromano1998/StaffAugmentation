@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- open graph titulo -->
+    <meta property="og:title" content="Dynamicsteams">
+    <!-- open graph descripcion -->
+    <meta property="og:description"
+        content="We specialize in implementing, integrating, and optimizing top CRM platforms for customer-centric business processes.">
+    <!-- open graph Keywords -->
+    <meta name="keywords"
+        content="Staff Augmentation, Dynamic 365, Salesforce, PowerPlatform, Services, Solutions, Agile ERP, CRM Implementation">
+    <!-- open graph imagen -->
+    <meta property="og:image" content="imagenes/opengraff.jpg">
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- boostrap -->
@@ -50,7 +60,7 @@
                             <input type="checkbox" id="show-services">
                             <label for="show-services">Solutions</label>
                             <ul>
-                                <li><a href="dynamic.html">Dynamic 365</a></li>
+                                <li><a href="dynamic.html">Dynamics 365</a></li>
                                 <li><a href="powerplat.html">PowerPlatform</a></li>
                                 <li><a href="salesforce.html">Salesforce</a></li>
                             </ul>
@@ -63,27 +73,27 @@
         </div>
     </header>
     <!-- finish navbar -->
-
-    <!-- contact start -->
-    <section class="contact">
-        <div class="u-wrapper">
-            <div class="contact-content">
-
-                <form id="form" action="" class="form">
-                    <h3 class="tag"><span>Contact us</span></h3>
-                    <label for="name">Name <span>*</span></label>
-                    <input name="name" required type="text" id="name" placeholder="Juan">
-                    <label for="email">Email <span>*</span></label>
-                    <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
-                    <label for="message">Messsage</label>
-                    <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
-                    <button type="submit" class="btn primary full">enviar mensaje</button>
-                </form>
-                <a href="mailto:me@gaastonromano@gmail.com" id="trucazo"></a>
+    <main>
+        <!-- contact start -->
+        <section class="contact">
+            <div class="u-wrapper">
+                <div class="contact-content">
+                    <form id="form" action="" class="form">
+                        <h3 class="tag"><span>Contact us</span></h3>
+                        <label for="name">Name <span>*</span></label>
+                        <input name="name" required type="text" id="name" placeholder="Juan">
+                        <label for="email">Email <span>*</span></label>
+                        <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+                        <label for="message">Messsage</label>
+                        <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+                        <button type="submit" class="btn primary full">send message</button>
+                    </form>
+                    <a href="mailto:me@cdr@dynamicsteams.com" id="trucazo"></a>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- contact finish -->
+        </section>
+        <!-- contact finish -->
+    </main>
     <!-- footer start -->
     <footer class="bg-dark text-white pt-5 pb-4">
         <div class="container text-center text-md-left">
@@ -124,12 +134,7 @@
         </div>
     </footer>
     <!-- footer finish -->
-
-
-
-
-
-
+    <!-- JAVASCRIPT -->
     <script src="js/contact.js"></script>
     <script src="js/sender.js"></script>
     <script src="js/smpt.js"></script>

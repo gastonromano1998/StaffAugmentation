@@ -7,7 +7,7 @@ function handleSubmit(event) {
     event.preventDefault()
     const form = new FormData(this)
     console.log(form.get('name'))
-    $buttonMailto.setAttribute('href', `mailto:gaastonromano@gmail.com?subject=${form.get('name')}${form.get('email')}&body=${form.get('message')}`)
+    $buttonMailto.setAttribute('href', `mailto:cdr@dynamicsteams.com?subject=${form.get('name')}${form.get('email')}&body=${form.get('message')}`)
     $buttonMailto.click()
 }
 
