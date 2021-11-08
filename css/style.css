@@ -3,6 +3,7 @@
   background: #171c24;
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 
 /* navbar*/
@@ -1194,10 +1195,11 @@ nav .content .links {
   --black: black;
 }
 
-body {
+.container-contactus {
   font-family: var(--font);
   background: var(--gradient);
   margin: 0;
+  background-color: grey;
 }
 
 .u-wrapper {
@@ -1430,6 +1432,7 @@ input::-webkit-input-placeholder {
 
 .contact {
   margin-block-end: 5em;
+  margin-top: 100px;
 }
 
 .footer {
