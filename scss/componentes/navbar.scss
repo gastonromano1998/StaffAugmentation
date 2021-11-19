@@ -1,4 +1,16 @@
 /* navbar*/
+.titulo-navbar {
+    font-size: 30px;
+    color: #4361ee;
+    margin-top: 10px;
+}
+@media screen and (max-width: 1250px) {
+    .titulo-navbar {
+        margin-left: -20px;
+    }
+}
+
+/* navbar*/
 .wrapper {
     background: #171c24;
     position: fixed;
