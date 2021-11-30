@@ -1,8 +1,9 @@
 /* navbar*/
 .titulo-navbar {
-  font-size: 30px;
+  font-size: 20px;
   color: #4361ee;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin: -30px;
 }
 
 @media screen and (max-width: 1250px) {
@@ -388,12 +389,14 @@ nav .content .links {
   padding: 20px;
   font-size: 45px;
   color: #b5179e;
+  font-family: "Work Sans", sans-serif;
 }
 
 /* home */
 .segundo-texto {
   font-size: 25px;
   padding: 10px;
+  font-family: "Work Sans", sans-serif;
 }
 
 /* home */
@@ -429,6 +432,7 @@ nav .content .links {
   font-size: 50px;
   color: #560bad;
   padding: 20px;
+  font-family: "Work Sans", sans-serif;
 }
 
 /* home */
@@ -436,6 +440,7 @@ nav .content .links {
   font-size: 20px;
   color: #000;
   padding: 10px;
+  font-family: "Work Sans", sans-serif;
 }
 
 /* home */
@@ -451,6 +456,7 @@ nav .content .links {
   font-size: 50px;
   color: #b5179e;
   padding: 40px;
+  font-family: "Work Sans", sans-serif;
 }
 
 /* home */
@@ -715,6 +721,11 @@ nav .content .links {
   padding: 30px;
   color: #5a189a;
   font-size: 40px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.texto-crm {
+  font-family: "Work Sans", sans-serif;
 }
 
 /*services */
@@ -799,6 +810,7 @@ nav .content .links {
 .titulo-dinamics {
   font-size: 35px;
   color: #0077b6;
+  font-family: "Work Sans", sans-serif;
 }
 
 /*solutions*/
@@ -909,10 +921,12 @@ nav .content .links {
 
 .txt10 {
   font-size: 30px;
+  font-family: "Work Sans", sans-serif;
 }
 
 .txt20 {
   font-size: 15px;
+  font-family: "Work Sans", sans-serif;
 }
 
 /*solutions*/
